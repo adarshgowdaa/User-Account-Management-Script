@@ -10,3 +10,13 @@ This Bash script simplifies user account management on a local Linux system. It 
 - **Password Security:** Generates strong, random passwords for new accounts.
 - **Error Handling:** Provides clear feedback and handles various error scenarios.
 - **User Interaction:** Prompts for user comments and email addresses to enhance user experience.
+
+## Usage
+
+`User_Managment.sh [options] USER_NAME [COMMENT]...`
+
+**Options**
+
+- `-c` Create a new user.
+- `-d` Delete an existing user.
+- `-h` Display this help message.
